@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_50sdp"
+    android:layout_margin="@dimen/_5sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/date_time"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/date_slot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/_11sdp"
+            android:textStyle="bold"
+            android:text="Today, 18 May"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/date_noslot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="6 slots available"
+            android:textColor="@color/card11"
+            android:textSize="@dimen/_8sdp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

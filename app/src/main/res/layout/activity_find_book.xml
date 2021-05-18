@@ -45,6 +45,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <!--card1-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -91,14 +93,13 @@
                         android:layout_margin="@dimen/_10sdp"
                         android:textSize="@dimen/_15sdp"
                         android:textStyle="bold"
-                        android:text="Dr. Renitarajan"
-                        android:textAlignment="center" />
+                        android:text="Dr. Renitarajan" />
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginStart="@dimen/_6sdp"
-                            android:text="Nephrologist\n12 years experience overall"
+                            android:text="Nephrologist\n12 years experience overall "
                             android:textColor="@color/colorPrimaryText"
                             android:textSize="@dimen/_10sdp" />
                     </LinearLayout>
@@ -139,13 +140,13 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_3ssp">
                         <Button
-                            android:id="@+id/videocall"
+                            android:id="@+id/bookvideoconsult"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Book Video Consult"
                             android:textAllCaps="false"/>
                         <Button
-                            android:id="@+id/appoinments"
+                            android:id="@+id/bookappoinments"
                             android:layout_marginStart="@dimen/_4sdp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -156,8 +157,9 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
+            <!--ENDS card1-->
 
-
+<!--card2-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -204,14 +206,12 @@
                                 android:layout_margin="@dimen/_10sdp"
                                 android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"
-                                android:text="Dr. PavishnaShri"
-                                android:textAlignment="center" />
-
+                                android:text="Dr. PavishnaShri" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
-                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginStart="@dimen/_8sdp"
                                 android:text="Cardiologist\n5 years experience overall"
                                 android:textColor="@color/colorPrimaryText"
                                 android:textSize="@dimen/_10sdp" />
@@ -254,13 +254,13 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_3ssp">
                             <Button
-                                android:id="@id/videocall"
+                                android:id="@id/bookvideoconsult"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Book Video Consult"
                                 android:textAllCaps="false"/>
                             <Button
-                                android:id="@id/appoinments"
+                                android:id="@id/bookappoinments"
                                 android:layout_marginStart="@dimen/_4sdp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -271,7 +271,9 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
+            <!--ENDS card2-->
 
+            <!--card3-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -318,15 +320,14 @@
                                     android:layout_margin="@dimen/_10sdp"
                                     android:textSize="@dimen/_15sdp"
                                     android:textStyle="bold"
-                                    android:text="Dr. PavishnaShri"
-                                    android:textAlignment="center" />
+                                    android:text="Dr. Achu" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center_horizontal"
-                                    android:layout_marginStart="@dimen/_10sdp"
-                                    android:text="Cardiologist\n5 years experience overall"
+                                    android:layout_marginStart="@dimen/_8sdp"
+                                    android:text="Ophthalmologist\n5 years experience overall"
                                     android:textColor="@color/colorPrimaryText"
                                     android:textSize="@dimen/_10sdp" />
                             </LinearLayout>
@@ -348,7 +349,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_2sdp"
-                                android:text="Delhi . AIMS"
+                                android:text="Chennai . MMC"
                                 android:textColor="@color/colorPrimaryText"
                                 android:textSize="13dp"
                                 android:textStyle="bold" />
@@ -357,7 +358,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/colorPrimaryText"
                                 android:textSize="15dp"
-                                android:text="~ \u20B9 1500 Consulation fees" />
+                                android:text="~ \u20B9 1000 Consulation fees" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -368,13 +369,13 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_3ssp">
                                 <Button
-                                    android:id="@id/videocall"
+                                    android:id="@id/bookvideoconsult"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Book Video Consult"
                                     android:textAllCaps="false"/>
                                 <Button
-                                    android:id="@id/appoinments"
+                                    android:id="@id/bookappoinments"
                                     android:layout_marginStart="@dimen/_4sdp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -385,7 +386,9 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
+            <!--ENDS card3-->
 
+            <!--card4-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -432,15 +435,14 @@
                                     android:layout_margin="@dimen/_10sdp"
                                     android:textSize="@dimen/_15sdp"
                                     android:textStyle="bold"
-                                    android:text="Dr. PavishnaShri"
-                                    android:textAlignment="center" />
+                                    android:text="Dr. Hamshavarthinee" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center_horizontal"
-                                    android:layout_marginStart="@dimen/_10sdp"
-                                    android:text="Cardiologist\n5 years experience overall"
+                                    android:layout_marginStart="@dimen/_8sdp"
+                                    android:text="Radiologist\n5 years experience overall"
                                     android:textColor="@color/colorPrimaryText"
                                     android:textSize="@dimen/_10sdp" />
                             </LinearLayout>
@@ -462,7 +464,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_2sdp"
-                                android:text="Delhi . AIMS"
+                                android:text="Delhi . Apollo"
                                 android:textColor="@color/colorPrimaryText"
                                 android:textSize="13dp"
                                 android:textStyle="bold" />
@@ -471,7 +473,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/colorPrimaryText"
                                 android:textSize="15dp"
-                                android:text="~ \u20B9 1500 Consulation fees" />
+                                android:text="~ \u20B9 3500 Consulation fees" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -482,13 +484,13 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_3ssp">
                                 <Button
-                                    android:id="@id/videocall"
+                                    android:id="@id/bookvideoconsult"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Book Video Consult"
                                     android:textAllCaps="false"/>
                                 <Button
-                                    android:id="@id/appoinments"
+                                    android:id="@id/bookappoinments"
                                     android:layout_marginStart="@dimen/_4sdp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -499,6 +501,7 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
+            <!--ENDS card4-->
 
         </LinearLayout>
     </ScrollView>

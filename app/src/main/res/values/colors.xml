@@ -19,6 +19,7 @@
 
     <!-- CARD colors-->
     <color name="card1">#d4cbe5</color>
+    <color name="card11">#b19cd9</color>
     <color name="card2">#7adccf</color>
     <color name="card3">#f7c59f</color>
     <color name="card4">#b8d7f5</color>
