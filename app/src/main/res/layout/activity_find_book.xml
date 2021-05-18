@@ -54,7 +54,7 @@
         android:background="@color/colorTextIcons">
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_200sdp"
+            android:layout_height="@dimen/_220sdp"
             android:elevation="@dimen/_8sdp"
             android:layout_margin="@dimen/_10sdp">
             <LinearLayout
@@ -167,7 +167,7 @@
             android:background="@color/colorTextIcons">
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_200sdp"
+                android:layout_height="@dimen/_220sdp"
                 android:elevation="@dimen/_8sdp"
                 android:layout_margin="@dimen/_10sdp">
                 <LinearLayout
@@ -281,7 +281,7 @@
                 android:background="@color/colorTextIcons">
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/_200sdp"
+                    android:layout_height="@dimen/_220sdp"
                     android:elevation="@dimen/_8sdp"
                     android:layout_margin="@dimen/_10sdp">
                     <LinearLayout
@@ -305,7 +305,7 @@
                                     android:layout_width="@dimen/_70sdp"
                                     android:layout_height="@dimen/_70sdp"
                                     android:layout_centerInParent="true"
-                                    android:src="@drawable/doctor" />
+                                    android:src="@drawable/my_doctor" />
                             </RelativeLayout>
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -320,7 +320,7 @@
                                     android:layout_margin="@dimen/_10sdp"
                                     android:textSize="@dimen/_15sdp"
                                     android:textStyle="bold"
-                                    android:text="Dr. Achu" />
+                                    android:text="Dr. Azeem" />
 
                                 <TextView
                                     android:layout_width="match_parent"
@@ -396,7 +396,7 @@
                 android:background="@color/colorTextIcons">
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/_200sdp"
+                    android:layout_height="@dimen/_220sdp"
                     android:elevation="@dimen/_8sdp"
                     android:layout_margin="@dimen/_10sdp">
                     <LinearLayout
