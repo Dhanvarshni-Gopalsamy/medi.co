@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1030050830613",
+    "project_id": "medico-1ffc8",
+    "storage_bucket": "medico-1ffc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030050830613:android:e3c4b8abc5475ae0c5711c",
+        "android_client_info": {
+          "package_name": "com.example.namachivaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030050830613-s3u04omnqhbs7grr59mmj6p1c2am6v7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC339NeyZCt5yqHRrlPoMAgnTukjUH1jag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030050830613-s3u04omnqhbs7grr59mmj6p1c2am6v7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

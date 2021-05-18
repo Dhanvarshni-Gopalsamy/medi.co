@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Namachivaya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="logoname">Medi.co</string>
+    <string name="slogans">Some slogans</string>
+
+    <!--Strings for dashboard-->
+
+    <!--categories-->
+    <string name="appointments">Appointments</string>
+    <string name="testbookings">Test Bookings</string>
+    <string name="orders">Orders</string>
+    <string name="consulations">Consulations</string>
+    <string name="mydoctors">My Doctors</string>
+    <string name="medicalrecords">Medical Records</string>
+    <string name="reminders">Reminders</string>
+    <string name="payment">Payment</string>
+
+
+    <string name="search_text">Search...</string>
+    <string name="finddoctors">Find Doctors \nNear You</string>
+    <string name="finddoctorsdescription">Book video or in_clinic appointments</string>
+    <string name="instantvideoconsulation">Instant Video \nConsultation</string>
+    <string name="instantvideoconsulationdescrription">Connect with experienced \ndoctors in 60 secs</string>
+    <string name="instantvideoconsulationsymptoms">Instant Video Consultation for\nCOVID-19 symptoms</string>
+    <string name="instantvideoconsulationdescrriptionsymptoms">Connect with medical expects, 24/7</string>
+    <string name="dashboardcardmed">Medicine &amp;\nEssentials</string>
+    <string name="dashboardcardlab">Lab Test &amp;\nCheckups</string>
+    <string name="videoconsultation">Instant Video Consultation</string>
+    <string name="videoconsultationdescription">Connect with experienced doctors in 60 secs</string>
+    <string name="instantvideoconsultation">Instant Video Consultation for Covid-19 symptoms</string>
+    <string name="instantvideoconsultationdescription">Connect with top medical experts, 24/7</string>
+    <string name="specialists">Book appointments with top \nspecialists in your city</string>
+    <string name="specialistsdescription">Treat common symptoms instantly via video consultation</string>
+    <string name="questionare">Free expert answers to your health\nquestions</string>
+
+    <string name="questions">I am having severe hair fall issue from\npast few months one month back i also had covid too but now the hair loss have increased tremendoulsy\n"</string>
+</resources>

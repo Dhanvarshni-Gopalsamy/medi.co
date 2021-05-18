@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_appointments"
+        android:title="@string/appointments"
+        android:icon="@drawable/appointment"/>
+    <item
+        android:id="@+id/nav_testbookings"
+        android:title="@string/testbookings"
+        android:icon="@drawable/test_bookings"/>
+    <item
+        android:id="@+id/nav_consulations"
+        android:title="@string/consulations"
+        android:icon="@drawable/consultations"/>
+    <item
+        android:id="@+id/nav_mydoctors"
+        android:title="@string/mydoctors"
+        android:icon="@drawable/my_doctor"/>
+    <item
+        android:id="@+id/nav_medicalrecords"
+        android:title="@string/medicalrecords"
+        android:icon="@drawable/medical_records"/>
+    <item
+        android:id="@+id/nav_payment"
+        android:title="@string/payment"
+        android:icon="@drawable/payments"/>
+</group>
+
+
+    <item android:title="General Settings">
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/helpcenter"
+                android:title="Help Center"
+                android:icon="@drawable/help_center"/>
+            <item android:id="@+id/settings"
+                android:title="Settings"
+                android:icon="@drawable/settings"/>
+            <item android:id="@+id/are_you_a_doctor"
+                android:title="Are you a doctor?"
+                android:icon="@drawable/are_you_a_doctor"/>
+        </group>
+    </item>
+</menu>
